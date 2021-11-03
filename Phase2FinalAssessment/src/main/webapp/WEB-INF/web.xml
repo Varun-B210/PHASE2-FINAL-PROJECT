@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginPage</servlet-name>
+  	<display-name>LoginPage</display-name>
+  	<description></description>
+  	<servlet-class>com.servletlogin.LoginPage</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ReadStudents</servlet-name>
+  	<display-name>ReadStudents</display-name>
+  	<description></description>
+  	<servlet-class>com.servletlogin.ReadStudents</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ReadTeachers</servlet-name>
+  	<display-name>ReadTeachers</display-name>
+  	<description></description>
+  	<servlet-class>com.servletlogin.ReadTeachers</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ReadSubjects</servlet-name>
+  	<display-name>ReadSubjects</display-name>
+  	<description></description>
+  	<servlet-class>com.servletlogin.ReadSubjects</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ReadClasses</servlet-name>
+  	<display-name>ReadClasses</display-name>
+  	<description></description>
+  	<servlet-class>com.servletlogin.ReadClasses</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ReadClass</servlet-name>
+  	<display-name>ReadClass</display-name>
+  	<description></description>
+  	<servlet-class>com.servletlogin.ReadClass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginPage</servlet-name>
+  	<url-pattern>/LoginPage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ReadStudents</servlet-name>
+  	<url-pattern>/students</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ReadTeachers</servlet-name>
+  	<url-pattern>/teachers</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ReadSubjects</servlet-name>
+  	<url-pattern>/subjects</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ReadClasses</servlet-name>
+  	<url-pattern>/Classes</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ReadClass</servlet-name>
+  	<url-pattern>/Class</url-pattern>
+  </servlet-mapping>
+</web-app>

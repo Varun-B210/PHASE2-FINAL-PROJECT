@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-configuration>
+	<session-factory>
+		<property name="hbm2ddl.auto">update</property>
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/academy</property>
+		<property name="connection.username">root</property>
+		<property name="connection.password">#0210mysql</property>
+		<mapping class="com.servletlogin.entity.students" />
+		<mapping class="com.servletlogin.entity.teachers" />
+		<mapping class="com.servletlogin.entity.subjects" />
+		<mapping class="com.servletlogin.entity.classes" />
+		
+
+		
+		
+		
+	</session-factory>
+</hibernate-configuration>
